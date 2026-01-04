@@ -1,0 +1,61 @@
+#setwd('/Users/mbwhitford/Dropbox/classes/2024/spring_2024/POLS4707R/State Agritourism Laws')
+
+
+#Well this is going to be miserable
+stateLabels = (c('Alabama','Alaska','Arizona','Arkansas','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Minnesota','Mississippi','Missouri','Montana','Nebraska','New Hampshire','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin'))
+placeHolder = rep(1:43)
+
+state_data = data.frame(stateLabels,placeHolder)
+
+state_data[1,2] = read_file("Alabama.txt")
+state_data[2,2] = read_file("Alaska.txt")
+state_data[3,2] = read_file('Arizona.txt')
+state_data[4,2] = read_file('Arkansas.txt')
+# state_data[5,2] = read_file('California.txt')              #NO LAW
+state_data[5,2] = read_file('Colorado.txt')
+state_data[6,2] = read_file('Connecticut.txt')
+state_data[7,2] = read_file('Delaware.txt')
+state_data[8,2] = read_file('Florida.txt')
+state_data[9,2] = read_file('Georgia.txt')
+state_data[10,2] = read_file('Hawaii.txt')
+state_data[11,2] = read_file('Idaho.txt')
+state_data[12,2] = read_file('Illinois.txt')
+state_data[13,2] = read_file('Indiana.txt')
+state_data[14,2] = read_file('Iowa.txt')
+
+state_data[15,2] = read_file('Kansas.txt')
+state_data[16,2] = read_file('Kentucky.txt')
+state_data[17,2] = read_file('Louisiana.txt')
+state_data[18,2] = read_file('Maine.txt')
+state_data[19,2] = read_file('Maryland.txt')
+state_data[20,2] = read_file('Massachusetts.txt')
+# state_data[22,2] = read_file('Michigan.txt')             # NO LAW (using RTF act)
+state_data[21,2] = read_file('Minnesota.txt')
+state_data[22,2] = read_file('Mississippi.txt')
+state_data[23,2] = read_file('Missouri.txt')
+state_data[24,2] = read_file('Montana.txt')
+state_data[25,2] = read_file('Nebraska.txt')
+# state_data[28,2] = read_file('Nevada.txt')          # NO LAW, using RTF act (includes agritourism activities)
+state_data[26,2] = read_file('New Hampshire.txt')
+# state_data[30,2] = read_file('New Jersey.txt')      # NO LAW
+# state_data[31,2] = read_file('New Mexico.txt')      #NO LAW
+state_data[27,2] = read_file('New York.txt')
+state_data[28,2] = read_file('North Carolina.txt')
+state_data[29,2] = read_file('North Dakota.txt')
+state_data[30,2] = read_file('Ohio.txt')
+state_data[31,2] = read_file('Oklahoma.txt')
+state_data[32,2] = read_file('Oregon.txt')
+state_data[33,2] = read_file('Pennsylvania.txt')
+# state_data[39,2] = read_file('Rhode Island.txt')        # NO LAW
+state_data[34,2] = read_file('South Carolina.txt')
+state_data[35,2] = read_file('South Dakota.txt')
+state_data[36,2] = read_file('Tennessee.txt')
+state_data[37,2] = read_file('Texas.txt')
+state_data[38,2] = read_file('Utah.txt')
+state_data[39,2] = read_file('Vermont.txt')
+state_data[40,2] = read_file('Virginia.txt')
+state_data[41,2] = read_file('Washington.txt')
+state_data[42,2] = read_file('West Virginia.txt')
+state_data[43,2] = read_file('Wisconsin.txt')
+# state_data[50,2] = read_file('Wyoming.txt')        #NO LAW
+#write.csv(state_data,'/Users/mbwhitford/Dropbox/classes/2024/spring_2024/POLS4707R/State Agritourism Laws/merged-cleaned.csv', row.names = FALSE)

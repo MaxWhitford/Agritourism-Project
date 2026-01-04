@@ -1,0 +1,596 @@
+state1,state2,similarity,year1,year2,earlier_state,later_state,earlier_year,later_year,year_gap
+North Carolina,Washington,0.96062839109357,2005,2017,North Carolina,Washington,2005,2017,12
+Idaho,North Carolina,0.95979465973498,2014,2005,North Carolina,Idaho,2005,2014,9
+Idaho,Washington,0.95855874777191,2014,2017,Idaho,Washington,2014,2017,3
+North Carolina,Virginia,0.95218339685283,2005,2006,North Carolina,Virginia,2005,2006,1
+North Carolina,Oklahoma,0.94529692992744,2005,2004,Oklahoma,North Carolina,2004,2005,1
+Oklahoma,Virginia,0.94345117186333,2004,2006,Oklahoma,Virginia,2004,2006,2
+Tennessee,Virginia,0.94216502029747,2009,2006,Virginia,Tennessee,2006,2009,3
+Mississippi,Oklahoma,0.93582186893794,2012,2004,Oklahoma,Mississippi,2004,2012,8
+Idaho,Oklahoma,0.93519866923207,2014,2004,Oklahoma,Idaho,2004,2014,10
+Oklahoma,Washington,0.93457279910759,2004,2017,Oklahoma,Washington,2004,2017,13
+Virginia,Washington,0.93347463163379,2006,2017,Virginia,Washington,2006,2017,11
+Idaho,Virginia,0.93291095950942,2014,2006,Virginia,Idaho,2006,2014,8
+Idaho,Mississippi,0.9326050817114,2014,2012,Mississippi,Idaho,2012,2014,2
+Mississippi,North Carolina,0.9314756305077,2012,2005,North Carolina,Mississippi,2005,2012,7
+North Carolina,Tennessee,0.92790601104156,2005,2009,North Carolina,Tennessee,2005,2009,4
+Mississippi,Virginia,0.92486478827225,2012,2006,Virginia,Mississippi,2006,2012,6
+Mississippi,Washington,0.92442008128073,2012,2017,Mississippi,Washington,2012,2017,5
+North Carolina,South Carolina,0.91894344598187,2005,2010,North Carolina,South Carolina,2005,2010,5
+Idaho,South Carolina,0.91570843720115,2014,2010,South Carolina,Idaho,2010,2014,4
+Maine,Virginia,0.91205182454532,2012,2006,Virginia,Maine,2006,2012,6
+Oklahoma,Tennessee,0.91072364987182,2004,2009,Oklahoma,Tennessee,2004,2009,5
+South Carolina,Washington,0.91064560083379,2010,2017,South Carolina,Washington,2010,2017,7
+Tennessee,Washington,0.90876806091776,2009,2017,Tennessee,Washington,2009,2017,8
+Idaho,Tennessee,0.90707906792579,2014,2009,Tennessee,Idaho,2009,2014,5
+Maine,North Carolina,0.90089855572158,2012,2005,North Carolina,Maine,2005,2012,7
+South Carolina,Virginia,0.89903211468512,2010,2006,Virginia,South Carolina,2006,2010,4
+Maine,Washington,0.89462261063239,2012,2017,Maine,Washington,2012,2017,5
+Mississippi,Tennessee,0.89350514460581,2012,2009,Tennessee,Mississippi,2009,2012,3
+Mississippi,South Carolina,0.89317658542676,2012,2010,South Carolina,Mississippi,2010,2012,2
+Maine,Tennessee,0.890940891521,2012,2009,Tennessee,Maine,2009,2012,3
+Alabama,Virginia,0.88355205794314,2012,2006,Virginia,Alabama,2006,2012,6
+Idaho,Maine,0.88192778388125,2014,2012,Maine,Idaho,2012,2014,2
+Alabama,North Carolina,0.8816269244228,2012,2005,North Carolina,Alabama,2005,2012,7
+Alabama,Tennessee,0.88150932440659,2012,2009,Tennessee,Alabama,2009,2012,3
+Florida,Virginia,0.88083724739495,2013,2006,Virginia,Florida,2006,2013,7
+Maine,Oklahoma,0.87824757381307,2012,2004,Oklahoma,Maine,2004,2012,8
+Minnesota,Virginia,0.87636077942545,2015,2006,Virginia,Minnesota,2006,2015,9
+Oklahoma,South Carolina,0.87594869350829,2004,2010,Oklahoma,South Carolina,2004,2010,6
+South Carolina,Tennessee,0.87459629502145,2010,2009,Tennessee,South Carolina,2009,2010,1
+Alabama,Washington,0.87066279009301,2012,2017,Alabama,Washington,2012,2017,5
+Missouri,North Dakota,0.86799001445244,2010,2011,Missouri,North Dakota,2010,2011,1
+Maine,Mississippi,0.86638989437172,2012,2012,Maine,Mississippi,2012,2012,0
+Louisiana,Mississippi,0.86511908663871,2008,2012,Louisiana,Mississippi,2008,2012,4
+Maine,Minnesota,0.86433748058434,2012,2015,Maine,Minnesota,2012,2015,3
+Virginia,West Virginia,0.86276196744739,2006,2018,Virginia,West Virginia,2006,2018,12
+Florida,Washington,0.86253087406159,2013,2017,Florida,Washington,2013,2017,4
+Florida,North Carolina,0.86142595089496,2013,2005,North Carolina,Florida,2005,2013,8
+Florida,Maine,0.85943605214201,2013,2012,Maine,Florida,2012,2013,1
+Maine,South Carolina,0.85463294286406,2012,2010,South Carolina,Maine,2010,2012,2
+Oklahoma,West Virginia,0.85420396457368,2004,2018,Oklahoma,West Virginia,2004,2018,14
+Louisiana,Oklahoma,0.85403809090147,2008,2004,Oklahoma,Louisiana,2004,2008,4
+Florida,Oklahoma,0.85266141530188,2013,2004,Oklahoma,Florida,2004,2013,9
+Kentucky,Mississippi,0.85250224210643,2012,2012,Kentucky,Mississippi,2012,2012,0
+Washington,West Virginia,0.85190080716275,2017,2018,Washington,West Virginia,2017,2018,1
+Alabama,Idaho,0.85100560836106,2012,2014,Alabama,Idaho,2012,2014,2
+Florida,Idaho,0.84997590805379,2013,2014,Florida,Idaho,2013,2014,1
+Alabama,Mississippi,0.84944432576954,2012,2012,Alabama,Mississippi,2012,2012,0
+Idaho,West Virginia,0.84940587736547,2014,2018,Idaho,West Virginia,2014,2018,4
+Mississippi,West Virginia,0.84822888634267,2012,2018,Mississippi,West Virginia,2012,2018,6
+Florida,Tennessee,0.84748606450507,2013,2009,Tennessee,Florida,2009,2013,4
+Alabama,Maine,0.8471518131949,2012,2012,Alabama,Maine,2012,2012,0
+Alabama,Oklahoma,0.84523860064365,2012,2004,Oklahoma,Alabama,2004,2012,8
+Kentucky,Oklahoma,0.84212198620595,2012,2004,Oklahoma,Kentucky,2004,2012,8
+Florida,West Virginia,0.8407511984576,2013,2018,Florida,West Virginia,2013,2018,5
+North Carolina,West Virginia,0.84073561942236,2005,2018,North Carolina,West Virginia,2005,2018,13
+Tennessee,West Virginia,0.84052055216396,2009,2018,Tennessee,West Virginia,2009,2018,9
+Alabama,South Carolina,0.83833846988255,2012,2010,South Carolina,Alabama,2010,2012,2
+Minnesota,North Carolina,0.83477128234715,2015,2005,North Carolina,Minnesota,2005,2015,10
+Kansas,Missouri,0.8337123683679,2004,2010,Kansas,Missouri,2004,2010,6
+Florida,Mississippi,0.83315307423906,2013,2012,Mississippi,Florida,2012,2013,1
+Minnesota,Tennessee,0.8329431138842,2015,2009,Tennessee,Minnesota,2009,2015,6
+Kentucky,Louisiana,0.83012185269047,2012,2008,Louisiana,Kentucky,2008,2012,4
+Louisiana,Virginia,0.82924255306345,2008,2006,Virginia,Louisiana,2006,2008,2
+Idaho,Minnesota,0.82911596792358,2014,2015,Idaho,Minnesota,2014,2015,1
+Arkansas,Virginia,0.82604894297144,2011,2006,Virginia,Arkansas,2006,2011,5
+Minnesota,Washington,0.82522278972794,2015,2017,Minnesota,Washington,2015,2017,2
+Minnesota,Oklahoma,0.82287888594039,2015,2004,Oklahoma,Minnesota,2004,2015,11
+Maine,West Virginia,0.82159862797661,2012,2018,Maine,West Virginia,2012,2018,6
+Arkansas,Florida,0.82029152985731,2011,2013,Arkansas,Florida,2011,2013,2
+Florida,South Carolina,0.81989849936982,2013,2010,South Carolina,Florida,2010,2013,3
+Kentucky,Virginia,0.8198235543596,2012,2006,Virginia,Kentucky,2006,2012,6
+Utah,Wisconsin,0.81913107351766,2008,2014,Utah,Wisconsin,2008,2014,6
+Louisiana,North Carolina,0.81442388143884,2008,2005,North Carolina,Louisiana,2005,2008,3
+Alabama,Florida,0.81436337568029,2012,2013,Alabama,Florida,2012,2013,1
+South Carolina,West Virginia,0.81357619819016,2010,2018,South Carolina,West Virginia,2010,2018,8
+Idaho,Kentucky,0.81168442853095,2014,2012,Kentucky,Idaho,2012,2014,2
+Texas,Washington,0.81148913168976,2015,2017,Texas,Washington,2015,2017,2
+Arkansas,North Carolina,0.81083541368744,2011,2005,North Carolina,Arkansas,2005,2011,6
+Minnesota,Mississippi,0.81011950624146,2015,2012,Mississippi,Minnesota,2012,2015,3
+Kentucky,West Virginia,0.80993066624005,2012,2018,Kentucky,West Virginia,2012,2018,6
+North Carolina,Texas,0.80899839316668,2005,2015,North Carolina,Texas,2005,2015,10
+Idaho,Texas,0.80874925217425,2014,2015,Idaho,Texas,2014,2015,1
+Idaho,Louisiana,0.8085528123835,2014,2008,Louisiana,Idaho,2008,2014,6
+Arkansas,Tennessee,0.80833217546753,2011,2009,Tennessee,Arkansas,2009,2011,2
+Louisiana,Washington,0.80566209355633,2008,2017,Louisiana,Washington,2008,2017,9
+Indiana,Washington,0.8055105320662,2011,2017,Indiana,Washington,2011,2017,6
+Oklahoma,Texas,0.80382061222408,2004,2015,Oklahoma,Texas,2004,2015,11
+Minnesota,South Carolina,0.80318395696328,2015,2010,South Carolina,Minnesota,2010,2015,5
+Texas,West Virginia,0.80215339920683,2015,2018,Texas,West Virginia,2015,2018,3
+Indiana,North Carolina,0.80212561022577,2011,2005,North Carolina,Indiana,2005,2011,6
+Mississippi,Texas,0.79934677468417,2012,2015,Mississippi,Texas,2012,2015,3
+Indiana,Virginia,0.79782627525499,2011,2006,Virginia,Indiana,2006,2011,5
+Arkansas,Maine,0.79598168316445,2011,2012,Arkansas,Maine,2011,2012,1
+Alabama,Arkansas,0.79535325367675,2012,2011,Arkansas,Alabama,2011,2012,1
+Kentucky,Washington,0.79481460881582,2012,2017,Kentucky,Washington,2012,2017,5
+Arkansas,Oklahoma,0.79384027556258,2011,2004,Oklahoma,Arkansas,2004,2011,7
+South Carolina,Texas,0.7924349103384,2010,2015,South Carolina,Texas,2010,2015,5
+Idaho,Indiana,0.79201847960038,2014,2011,Indiana,Idaho,2011,2014,3
+Indiana,Tennessee,0.79169801638309,2011,2009,Tennessee,Indiana,2009,2011,2
+Kentucky,North Carolina,0.79166266989889,2012,2005,North Carolina,Kentucky,2005,2012,7
+Texas,Virginia,0.79098173489084,2015,2006,Virginia,Texas,2006,2015,9
+Maine,Texas,0.79041219312768,2012,2015,Maine,Texas,2012,2015,3
+Indiana,Oklahoma,0.79027889589181,2011,2004,Oklahoma,Indiana,2004,2011,7
+Louisiana,Tennessee,0.78968063595358,2008,2009,Louisiana,Tennessee,2008,2009,1
+Arkansas,Washington,0.78959037574862,2011,2017,Arkansas,Washington,2011,2017,6
+Kansas,North Dakota,0.78878439135421,2004,2011,Kansas,North Dakota,2004,2011,7
+Florida,Texas,0.78813862621638,2013,2015,Florida,Texas,2013,2015,2
+Kentucky,Tennessee,0.78781212390358,2012,2009,Tennessee,Kentucky,2009,2012,3
+Indiana,Maine,0.7873780638613,2011,2012,Indiana,Maine,2011,2012,1
+Louisiana,Maine,0.78668238383229006,2008,2012,Louisiana,Maine,2008,2012,4
+Alabama,Texas,0.78638390145236,2012,2015,Alabama,Texas,2012,2015,3
+Alabama,Minnesota,0.78413769260794,2012,2015,Alabama,Minnesota,2012,2015,3
+Arkansas,Minnesota,0.78279444058167,2011,2015,Arkansas,Minnesota,2011,2015,4
+Mississippi,Missouri,0.7819654165067,2012,2010,Missouri,Mississippi,2010,2012,2
+Alabama,West Virginia,0.78196334853741,2012,2018,Alabama,West Virginia,2012,2018,6
+Florida,Indiana,0.78129110385437,2013,2011,Indiana,Florida,2011,2013,2
+Tennessee,Texas,0.78116682049111,2009,2015,Tennessee,Texas,2009,2015,6
+Florida,Minnesota,0.78010488230642006,2013,2015,Florida,Minnesota,2013,2015,2
+Alabama,Indiana,0.77984321574395,2012,2011,Indiana,Alabama,2011,2012,1
+Louisiana,West Virginia,0.77972697614506,2008,2018,Louisiana,West Virginia,2008,2018,10
+Arkansas,South Carolina,0.77959680999299,2011,2010,South Carolina,Arkansas,2010,2011,1
+Arkansas,Idaho,0.7795076530345,2011,2014,Arkansas,Idaho,2011,2014,3
+Missouri,Oklahoma,0.77949634229608,2010,2004,Oklahoma,Missouri,2004,2010,6
+Indiana,South Carolina,0.77794481797683,2011,2010,South Carolina,Indiana,2010,2011,1
+Indiana,Mississippi,0.77340493444238,2011,2012,Indiana,Mississippi,2011,2012,1
+Indiana,Texas,0.77159176534744,2011,2015,Indiana,Texas,2011,2015,4
+Arkansas,Texas,0.7713723883713,2011,2015,Arkansas,Texas,2011,2015,4
+Minnesota,West Virginia,0.7683710427512,2015,2018,Minnesota,West Virginia,2015,2018,3
+Kentucky,Texas,0.76811554709733,2012,2015,Kentucky,Texas,2012,2015,3
+Alabama,Louisiana,0.76438088412039,2012,2008,Louisiana,Alabama,2008,2012,4
+Kentucky,South Carolina,0.76303346925379,2012,2010,South Carolina,Kentucky,2010,2012,2
+Arkansas,Mississippi,0.76253760466626,2011,2012,Arkansas,Mississippi,2011,2012,1
+Arkansas,Missouri,0.76128465888028,2011,2010,Missouri,Arkansas,2010,2011,1
+Missouri,North Carolina,0.7612460431804,2010,2005,North Carolina,Missouri,2005,2010,5
+Louisiana,South Carolina,0.76086825696236,2008,2010,Louisiana,South Carolina,2008,2010,2
+Missouri,Virginia,0.76083112131461,2010,2006,Virginia,Missouri,2006,2010,4
+Arkansas,Indiana,0.75923788405496,2011,2011,Arkansas,Indiana,2011,2011,0
+Missouri,Washington,0.7575582228487,2010,2017,Missouri,Washington,2010,2017,7
+Florida,Missouri,0.75673534773334,2013,2010,Missouri,Florida,2010,2013,3
+Idaho,Missouri,0.75604085408134,2014,2010,Missouri,Idaho,2010,2014,4
+Kentucky,Maine,0.75329596271611,2012,2012,Kentucky,Maine,2012,2012,0
+Florida,Kentucky,0.75217360190582,2013,2012,Kentucky,Florida,2012,2013,1
+Arkansas,North Dakota,0.75211771024535,2011,2011,Arkansas,North Dakota,2011,2011,0
+Florida,Louisiana,0.75101390746587,2013,2008,Louisiana,Florida,2008,2013,5
+Louisiana,Minnesota,0.7490227210503,2008,2015,Louisiana,Minnesota,2008,2015,7
+Indiana,West Virginia,0.74608653913289,2011,2018,Indiana,West Virginia,2011,2018,7
+Alabama,Kentucky,0.74469887702407,2012,2012,Alabama,Kentucky,2012,2012,0
+Arkansas,West Virginia,0.74232772157959,2011,2018,Arkansas,West Virginia,2011,2018,7
+Florida,North Dakota,0.73790223303406,2013,2011,North Dakota,Florida,2011,2013,2
+Indiana,Minnesota,0.73604672248018,2011,2015,Indiana,Minnesota,2011,2015,4
+Missouri,Tennessee,0.73462265069077,2010,2009,Tennessee,Missouri,2009,2010,1
+Maine,Missouri,0.72974565871723,2012,2010,Missouri,Maine,2010,2012,2
+Minnesota,Texas,0.72933017936785,2015,2015,Minnesota,Texas,2015,2015,0
+Kentucky,Minnesota,0.72824369366389,2012,2015,Kentucky,Minnesota,2012,2015,3
+Louisiana,Texas,0.7276427728294,2008,2015,Louisiana,Texas,2008,2015,7
+Mississippi,North Dakota,0.72596387594858,2012,2011,North Dakota,Mississippi,2011,2012,1
+North Dakota,Virginia,0.71958075035854,2011,2006,Virginia,North Dakota,2006,2011,5
+Alabama,Missouri,0.71770314113819,2012,2010,Missouri,Alabama,2010,2012,2
+Maine,North Dakota,0.71646247907032,2012,2011,North Dakota,Maine,2011,2012,1
+Kansas,Oklahoma,0.71440493934239,2004,2004,Kansas,Oklahoma,2004,2004,0
+Missouri,West Virginia,0.71059596110801,2010,2018,Missouri,West Virginia,2010,2018,8
+Missouri,Texas,0.70701118986586,2010,2015,Missouri,Texas,2010,2015,5
+Missouri,South Carolina,0.70413645305138,2010,2010,Missouri,South Carolina,2010,2010,0
+Kansas,Mississippi,0.70400088904548,2004,2012,Kansas,Mississippi,2004,2012,8
+North Dakota,Oklahoma,0.70384867118202,2011,2004,Oklahoma,North Dakota,2004,2011,7
+Kentucky,Missouri,0.70193609787231,2012,2010,Missouri,Kentucky,2010,2012,2
+North Dakota,Texas,0.70177064231743,2011,2015,North Dakota,Texas,2011,2015,4
+Arkansas,Louisiana,0.70109183336756,2011,2008,Louisiana,Arkansas,2008,2011,3
+North Dakota,Washington,0.70090579902771,2011,2017,North Dakota,Washington,2011,2017,6
+Indiana,Louisiana,0.69946007835507,2011,2008,Louisiana,Indiana,2008,2011,3
+North Dakota,West Virginia,0.69865482412882,2011,2018,North Dakota,West Virginia,2011,2018,7
+North Carolina,North Dakota,0.69656399876699,2005,2011,North Carolina,North Dakota,2005,2011,6
+Idaho,North Dakota,0.69504933703995,2014,2011,North Dakota,Idaho,2011,2014,3
+Arkansas,Kansas,0.69317327752278,2011,2004,Kansas,Arkansas,2004,2011,7
+North Dakota,South Carolina,0.69297228384349,2011,2010,South Carolina,North Dakota,2010,2011,1
+Arkansas,Kentucky,0.69252256062389,2011,2012,Arkansas,Kentucky,2011,2012,1
+Kansas,Virginia,0.69191783184258,2004,2006,Kansas,Virginia,2004,2006,2
+Indiana,Kentucky,0.68767489001186,2011,2012,Indiana,Kentucky,2011,2012,1
+North Dakota,Tennessee,0.68742111587846,2011,2009,Tennessee,North Dakota,2009,2011,2
+Louisiana,Missouri,0.683471591056,2008,2010,Louisiana,Missouri,2008,2010,2
+Indiana,Missouri,0.68213337183419,2011,2010,Missouri,Indiana,2010,2011,1
+Minnesota,North Dakota,0.67784802351898,2015,2011,North Dakota,Minnesota,2011,2015,4
+Alabama,North Dakota,0.67396464098725,2012,2011,North Dakota,Alabama,2011,2012,1
+Kentucky,North Dakota,0.67050032456761,2012,2011,North Dakota,Kentucky,2011,2012,1
+Kansas,Kentucky,0.67004811056765,2004,2012,Kansas,Kentucky,2004,2012,8
+Nebraska,Tennessee,0.66997991664317,2015,2009,Tennessee,Nebraska,2009,2015,6
+Indiana,North Dakota,0.66709335683575,2011,2011,Indiana,North Dakota,2011,2011,0
+Kansas,West Virginia,0.66635884305577,2004,2018,Kansas,West Virginia,2004,2018,14
+Kansas,Tennessee,0.66594225470805,2004,2009,Kansas,Tennessee,2004,2009,5
+Minnesota,Missouri,0.66517085947071,2015,2010,Missouri,Minnesota,2010,2015,5
+Kansas,North Carolina,0.66378315525242,2004,2005,Kansas,North Carolina,2004,2005,1
+Florida,Kansas,0.66144882412389,2013,2004,Kansas,Florida,2004,2013,9
+Idaho,Kansas,0.65990752816564,2014,2004,Kansas,Idaho,2004,2014,10
+Nebraska,Oklahoma,0.65422843941196,2015,2004,Oklahoma,Nebraska,2004,2015,11
+Kansas,Washington,0.64942147420968,2004,2017,Kansas,Washington,2004,2017,13
+Alabama,Nebraska,0.64456080591391,2012,2015,Alabama,Nebraska,2012,2015,3
+Florida,Nebraska,0.64183333719671,2013,2015,Florida,Nebraska,2013,2015,2
+Colorado,Oklahoma,0.64081174785375,2008,2004,Oklahoma,Colorado,2004,2008,4
+Kansas,Louisiana,0.63849356494635,2004,2008,Kansas,Louisiana,2004,2008,4
+Kansas,Maine,0.6384411698275,2004,2012,Kansas,Maine,2004,2012,8
+Colorado,Tennessee,0.63843039877379,2008,2009,Colorado,Tennessee,2008,2009,1
+Colorado,Maine,0.63682604519517,2008,2012,Colorado,Maine,2008,2012,4
+Indiana,Nebraska,0.63656736279441,2011,2015,Indiana,Nebraska,2011,2015,4
+Colorado,Indiana,0.63290952251895,2008,2011,Colorado,Indiana,2008,2011,3
+Arkansas,South Dakota,0.63289132126121,2011,2010,South Dakota,Arkansas,2010,2011,1
+Colorado,Mississippi,0.63135902885489,2008,2012,Colorado,Mississippi,2008,2012,4
+Colorado,Wisconsin,0.62936587827278,2008,2014,Colorado,Wisconsin,2008,2014,6
+Louisiana,North Dakota,0.62931687929427,2008,2011,Louisiana,North Dakota,2008,2011,3
+Maine,Nebraska,0.62830018972097,2012,2015,Maine,Nebraska,2012,2015,3
+Colorado,North Carolina,0.62646075197773,2008,2005,North Carolina,Colorado,2005,2008,3
+Nebraska,Virginia,0.62633167890052,2015,2006,Virginia,Nebraska,2006,2015,9
+Colorado,Washington,0.62545164863871,2008,2017,Colorado,Washington,2008,2017,9
+Florida,South Dakota,0.6248913120506,2013,2010,South Dakota,Florida,2010,2013,3
+Colorado,Idaho,0.6230972854224,2008,2014,Colorado,Idaho,2008,2014,6
+Colorado,Virginia,0.62301926860016,2008,2006,Virginia,Colorado,2006,2008,2
+Kansas,Texas,0.61989296260914994,2004,2015,Kansas,Texas,2004,2015,11
+Nebraska,Washington,0.61962194183105,2015,2017,Nebraska,Washington,2015,2017,2
+Kansas,Minnesota,0.61774005751487,2004,2015,Kansas,Minnesota,2004,2015,11
+Alabama,Colorado,0.6169752396094,2012,2008,Colorado,Alabama,2008,2012,4
+Kansas,South Carolina,0.61300204223563,2004,2010,Kansas,South Carolina,2004,2010,6
+Colorado,Louisiana,0.61256767090482,2008,2008,Colorado,Louisiana,2008,2008,0
+Idaho,Nebraska,0.61095665665538,2014,2015,Idaho,Nebraska,2014,2015,1
+Nebraska,North Carolina,0.60866969338175,2015,2005,North Carolina,Nebraska,2005,2015,10
+Colorado,Minnesota,0.60854451077328,2008,2015,Colorado,Minnesota,2008,2015,7
+Maine,South Dakota,0.6072633813293,2012,2010,South Dakota,Maine,2010,2012,2
+Colorado,Utah,0.60668221927778,2008,2008,Colorado,Utah,2008,2008,0
+Arkansas,Colorado,0.60642861387345,2011,2008,Colorado,Arkansas,2008,2011,3
+Alabama,Kansas,0.60466342030996,2012,2004,Kansas,Alabama,2004,2012,8
+Mississippi,Nebraska,0.60183669029081,2012,2015,Mississippi,Nebraska,2012,2015,3
+Nebraska,South Dakota,0.59857007937245,2015,2010,South Dakota,Nebraska,2010,2015,5
+Minnesota,South Dakota,0.58980197319275,2015,2010,South Dakota,Minnesota,2010,2015,5
+Colorado,West Virginia,0.58898082550675,2008,2018,Colorado,West Virginia,2008,2018,10
+Colorado,Florida,0.58739390603904,2008,2013,Colorado,Florida,2008,2013,5
+Indiana,Kansas,0.5847787249139,2011,2004,Kansas,Indiana,2004,2011,7
+South Dakota,Virginia,0.58314486701385,2010,2006,Virginia,South Dakota,2006,2010,4
+North Carolina,South Dakota,0.58298482252167,2005,2010,North Carolina,South Dakota,2005,2010,5
+Nebraska,West Virginia,0.58085025999761,2015,2018,Nebraska,West Virginia,2015,2018,3
+Colorado,Nebraska,0.58049894656076,2008,2015,Colorado,Nebraska,2008,2015,7
+Minnesota,Nebraska,0.58023200515503,2015,2015,Minnesota,Nebraska,2015,2015,0
+South Dakota,Tennessee,0.57507771174475,2010,2009,Tennessee,South Dakota,2009,2010,1
+Indiana,South Dakota,0.57466631831405,2011,2010,South Dakota,Indiana,2010,2011,1
+Colorado,Texas,0.57265719613588,2008,2015,Colorado,Texas,2008,2015,7
+South Dakota,Washington,0.56993453493971,2010,2017,South Dakota,Washington,2010,2017,7
+Nebraska,Texas,0.56967460969703,2015,2015,Nebraska,Texas,2015,2015,0
+Nebraska,South Carolina,0.56684248275291,2015,2010,South Carolina,Nebraska,2010,2015,5
+Alabama,South Dakota,0.56548197633571,2012,2010,South Dakota,Alabama,2010,2012,2
+Colorado,Missouri,0.56313358764527,2008,2010,Colorado,Missouri,2008,2010,2
+Oregon,Wisconsin,0.5630118198661,2015,2014,Wisconsin,Oregon,2014,2015,1
+Hawaii,Ohio,0.55811680492269,2006,2016,Hawaii,Ohio,2006,2016,10
+Idaho,South Dakota,0.55670516498067,2014,2010,South Dakota,Idaho,2010,2014,4
+Louisiana,Nebraska,0.55418274111155,2008,2015,Louisiana,Nebraska,2008,2015,7
+Colorado,Kentucky,0.55397825612723,2008,2012,Colorado,Kentucky,2008,2012,4
+Arkansas,Nebraska,0.55296441205757,2011,2015,Arkansas,Nebraska,2011,2015,4
+Colorado,South Carolina,0.5527980199763,2008,2010,Colorado,South Carolina,2008,2010,2
+Arkansas,Utah,0.55242807377916,2011,2008,Utah,Arkansas,2008,2011,3
+Oklahoma,South Dakota,0.55019471730258,2004,2010,Oklahoma,South Dakota,2004,2010,6
+South Carolina,South Dakota,0.54936636074,2010,2010,South Carolina,South Dakota,2010,2010,0
+South Dakota,Texas,0.53998852458589,2010,2015,South Dakota,Texas,2010,2015,5
+Kentucky,Nebraska,0.53919816532541,2012,2015,Kentucky,Nebraska,2012,2015,3
+Georgia,Hawaii,0.52673872427636,2008,2006,Hawaii,Georgia,2006,2008,2
+Illinois,Kansas,0.52577016672594,2006,2004,Kansas,Illinois,2004,2006,2
+Minnesota,Utah,0.52557443747714,2015,2008,Utah,Minnesota,2008,2015,7
+Missouri,Nebraska,0.52532265331676,2010,2015,Missouri,Nebraska,2010,2015,5
+South Dakota,West Virginia,0.52521940927387,2010,2018,South Dakota,West Virginia,2010,2018,8
+Mississippi,South Dakota,0.52287009273462,2012,2010,South Dakota,Mississippi,2010,2012,2
+Oregon,Virginia,0.52162833648661,2015,2006,Virginia,Oregon,2006,2015,9
+Colorado,North Dakota,0.51677530174048,2008,2011,Colorado,North Dakota,2008,2011,3
+Missouri,South Dakota,0.51674272072386,2010,2010,Missouri,South Dakota,2010,2010,0
+Colorado,Georgia,0.51066746739372,2008,2008,Colorado,Georgia,2008,2008,0
+Colorado,Kansas,0.50954893449559,2008,2004,Kansas,Colorado,2004,2008,4
+Colorado,Oregon,0.50590480464528,2008,2015,Colorado,Oregon,2008,2015,7
+Ohio,South Dakota,0.50583954240588,2016,2010,South Dakota,Ohio,2010,2016,6
+North Carolina,Oregon,0.50500363884038,2005,2015,North Carolina,Oregon,2005,2015,10
+Alabama,Oregon,0.50381169085265,2012,2015,Alabama,Oregon,2012,2015,3
+Minnesota,Oregon,0.49979639710571,2015,2015,Minnesota,Oregon,2015,2015,0
+Arkansas,Wisconsin,0.4994400412862,2011,2014,Arkansas,Wisconsin,2011,2014,3
+Oregon,Tennessee,0.49845410534006,2015,2009,Tennessee,Oregon,2009,2015,6
+Colorado,South Dakota,0.49685405844705,2008,2010,Colorado,South Dakota,2008,2010,2
+Oregon,Washington,0.49310232815503,2015,2017,Oregon,Washington,2015,2017,2
+North Dakota,South Dakota,0.49261556422884,2011,2010,South Dakota,North Dakota,2010,2011,1
+Nebraska,North Dakota,0.4924630378656,2015,2011,North Dakota,Nebraska,2011,2015,4
+Maine,Oregon,0.49165698978213,2012,2015,Maine,Oregon,2012,2015,3
+Minnesota,Wisconsin,0.49102785529943,2015,2014,Wisconsin,Minnesota,2014,2015,1
+Arkansas,Oregon,0.49003566720208,2011,2015,Arkansas,Oregon,2011,2015,4
+Oregon,Utah,0.4869045509141,2015,2008,Utah,Oregon,2008,2015,7
+Georgia,Louisiana,0.48101271111332,2008,2008,Georgia,Louisiana,2008,2008,0
+Oklahoma,Oregon,0.47711244319528,2004,2015,Oklahoma,Oregon,2004,2015,11
+Idaho,Oregon,0.47673210111694,2014,2015,Idaho,Oregon,2014,2015,1
+Kansas,Nebraska,0.47651684370707,2004,2015,Kansas,Nebraska,2004,2015,11
+Hawaii,Massachusetts,0.47575277125513,2006,2006,Hawaii,Massachusetts,2006,2006,0
+Colorado,Hawaii,0.47547193748392,2008,2006,Hawaii,Colorado,2006,2008,2
+Maine,Utah,0.47498979869312,2012,2008,Utah,Maine,2008,2012,4
+Hawaii,Wisconsin,0.47067141319652,2006,2014,Hawaii,Wisconsin,2006,2014,8
+South Dakota,Wisconsin,0.47052700333928,2010,2014,South Dakota,Wisconsin,2010,2014,4
+Ohio,Texas,0.46705013582094,2016,2015,Texas,Ohio,2015,2016,1
+Hawaii,Utah,0.46652971294593,2006,2008,Hawaii,Utah,2006,2008,2
+Indiana,Ohio,0.46580284736132,2011,2016,Indiana,Ohio,2011,2016,5
+Idaho,Ohio,0.46413077450826,2014,2016,Idaho,Ohio,2014,2016,2
+Maine,Wisconsin,0.46288354553704,2012,2014,Maine,Wisconsin,2012,2014,2
+Georgia,Utah,0.46016419579174,2008,2008,Georgia,Utah,2008,2008,0
+Ohio,West Virginia,0.4593569696193,2016,2018,Ohio,West Virginia,2016,2018,2
+Louisiana,South Dakota,0.45864032947533,2008,2010,Louisiana,South Dakota,2008,2010,2
+Florida,Ohio,0.45803157476727,2013,2016,Florida,Ohio,2013,2016,3
+Minnesota,Ohio,0.45684283024625,2015,2016,Minnesota,Ohio,2015,2016,1
+Alabama,Wisconsin,0.45657555052367,2012,2014,Alabama,Wisconsin,2012,2014,2
+Colorado,Ohio,0.45622246272013,2008,2016,Colorado,Ohio,2008,2016,8
+Georgia,Wisconsin,0.45543025033888,2008,2014,Georgia,Wisconsin,2008,2014,6
+Louisiana,Utah,0.45461387614852,2008,2008,Louisiana,Utah,2008,2008,0
+Ohio,Oklahoma,0.45244638795006,2016,2004,Oklahoma,Ohio,2004,2016,12
+Mississippi,Oregon,0.45178780243847,2012,2015,Mississippi,Oregon,2012,2015,3
+Hawaii,Michigan,0.44913465853796,2006,2006,Hawaii,Michigan,2006,2006,0
+Indiana,Wisconsin,0.44808002760122,2011,2014,Indiana,Wisconsin,2011,2014,3
+Georgia,Mississippi,0.44798862135619,2008,2012,Georgia,Mississippi,2008,2012,4
+North Dakota,Utah,0.44779489591279,2011,2008,Utah,North Dakota,2008,2011,3
+Oregon,South Carolina,0.44555454436885,2015,2010,South Carolina,Oregon,2010,2015,5
+Kansas,South Dakota,0.44488125365955,2004,2010,Kansas,South Dakota,2004,2010,6
+Alabama,Ohio,0.44452469250602,2012,2016,Alabama,Ohio,2012,2016,4
+Virginia,Wisconsin,0.44396879867216,2006,2014,Virginia,Wisconsin,2006,2014,8
+Ohio,Washington,0.44390892314252,2016,2017,Ohio,Washington,2016,2017,1
+Georgia,Kentucky,0.44345253614674,2008,2012,Georgia,Kentucky,2008,2012,4
+Utah,Virginia,0.44335815637534,2008,2006,Virginia,Utah,2006,2008,2
+Tennessee,Utah,0.44291778345017,2009,2008,Utah,Tennessee,2008,2009,1
+South Dakota,Utah,0.44288377854297,2010,2008,Utah,South Dakota,2008,2010,2
+Montana,Wisconsin,0.441541154718,2009,2014,Montana,Wisconsin,2009,2014,5
+Mississippi,Ohio,0.44115563454812,2012,2016,Mississippi,Ohio,2012,2016,4
+Oregon,South Dakota,0.441147107395,2015,2010,South Dakota,Oregon,2010,2015,5
+Tennessee,Wisconsin,0.438568675239,2009,2014,Tennessee,Wisconsin,2009,2014,5
+Indiana,Oregon,0.43815395463148,2011,2015,Indiana,Oregon,2011,2015,4
+Ohio,Virginia,0.43540976509041,2016,2006,Virginia,Ohio,2006,2016,10
+Nebraska,Oregon,0.43482823277618,2015,2015,Nebraska,Oregon,2015,2015,0
+Georgia,West Virginia,0.43464508312988,2008,2018,Georgia,West Virginia,2008,2018,10
+Georgia,Missouri,0.43113252483298,2008,2010,Georgia,Missouri,2008,2010,2
+Florida,Utah,0.4303259489204,2013,2008,Utah,Florida,2008,2013,5
+Louisiana,Ohio,0.43004222337903,2008,2016,Louisiana,Ohio,2008,2016,8
+North Carolina,Ohio,0.42858048266426,2005,2016,North Carolina,Ohio,2005,2016,11
+Maine,Ohio,0.42801386791202,2012,2016,Maine,Ohio,2012,2016,4
+Georgia,Kansas,0.42657873993472,2008,2004,Kansas,Georgia,2004,2008,4
+Alabama,Utah,0.42607192810667,2012,2008,Utah,Alabama,2008,2012,4
+Florida,Oregon,0.4254526690207,2013,2015,Florida,Oregon,2013,2015,2
+North Carolina,Wisconsin,0.42515225218575,2005,2014,North Carolina,Wisconsin,2005,2014,9
+Kentucky,South Dakota,0.42431407163731,2012,2010,South Dakota,Kentucky,2010,2012,2
+Illinois,Louisiana,0.42034889384182,2006,2008,Illinois,Louisiana,2006,2008,2
+Kentucky,Ohio,0.41959430410459,2012,2016,Kentucky,Ohio,2012,2016,4
+Louisiana,Wisconsin,0.41839987650584,2008,2014,Louisiana,Wisconsin,2008,2014,6
+Indiana,Utah,0.41744763464708,2011,2008,Utah,Indiana,2008,2011,3
+Georgia,Massachusetts,0.41709621093806,2008,2006,Massachusetts,Georgia,2006,2008,2
+Georgia,Virginia,0.41588213196199,2008,2006,Virginia,Georgia,2006,2008,2
+Georgia,Tennessee,0.41350822956157,2008,2009,Georgia,Tennessee,2008,2009,1
+Arkansas,Ohio,0.41347841026144,2011,2016,Arkansas,Ohio,2011,2016,5
+Georgia,Oklahoma,0.41241440282725,2008,2004,Oklahoma,Georgia,2004,2008,4
+Nebraska,Ohio,0.41115434519697,2015,2016,Nebraska,Ohio,2015,2016,1
+North Carolina,Utah,0.40909480958895,2005,2008,North Carolina,Utah,2005,2008,3
+Hawaii,Louisiana,0.4083931274371,2006,2008,Hawaii,Louisiana,2006,2008,2
+Georgia,Illinois,0.40718904976016,2008,2006,Illinois,Georgia,2006,2008,2
+Washington,Wisconsin,0.40614358952577,2017,2014,Wisconsin,Washington,2014,2017,3
+Missouri,Utah,0.40420642008494,2010,2008,Utah,Missouri,2008,2010,2
+Hawaii,Illinois,0.4026463959441,2006,2006,Hawaii,Illinois,2006,2006,0
+North Dakota,Wisconsin,0.40018970888456,2011,2014,North Dakota,Wisconsin,2011,2014,3
+Missouri,Oregon,0.39895211716292,2010,2015,Missouri,Oregon,2010,2015,5
+Arkansas,Georgia,0.39823904922869,2011,2008,Georgia,Arkansas,2008,2011,3
+Ohio,Tennessee,0.39606807297187,2016,2009,Tennessee,Ohio,2009,2016,7
+Idaho,Wisconsin,0.39589809921785,2014,2014,Idaho,Wisconsin,2014,2014,0
+Ohio,South Carolina,0.39479563165368,2016,2010,South Carolina,Ohio,2010,2016,6
+Idaho,Utah,0.3939249184401,2014,2008,Utah,Idaho,2008,2014,6
+Alabama,Georgia,0.39343089852242,2012,2008,Georgia,Alabama,2008,2012,4
+Missouri,Ohio,0.39292068653584,2010,2016,Missouri,Ohio,2010,2016,6
+Florida,Wisconsin,0.39278434487437,2013,2014,Florida,Wisconsin,2013,2014,1
+Nebraska,Wisconsin,0.39017307086629,2015,2014,Wisconsin,Nebraska,2014,2015,1
+Oregon,West Virginia,0.38983963659486,2015,2018,Oregon,West Virginia,2015,2018,3
+Mississippi,Utah,0.38930902673902,2012,2008,Utah,Mississippi,2008,2012,4
+Colorado,Massachusetts,0.3887564685673,2008,2006,Massachusetts,Colorado,2006,2008,2
+Georgia,Minnesota,0.38668147540899,2008,2015,Georgia,Minnesota,2008,2015,7
+Utah,Washington,0.38534010958885,2008,2017,Utah,Washington,2008,2017,9
+Oklahoma,Wisconsin,0.38488687179809,2004,2014,Oklahoma,Wisconsin,2004,2014,10
+Georgia,Ohio,0.38467901170549,2008,2016,Georgia,Ohio,2008,2016,8
+Oklahoma,Utah,0.3839049777716,2004,2008,Oklahoma,Utah,2004,2008,4
+Colorado,Illinois,0.38348938490465,2008,2006,Illinois,Colorado,2006,2008,2
+Louisiana,Oregon,0.38276381305095,2008,2015,Louisiana,Oregon,2008,2015,7
+Illinois,Kentucky,0.38180113939805,2006,2012,Illinois,Kentucky,2006,2012,6
+Kansas,Utah,0.37988352976735,2004,2008,Kansas,Utah,2004,2008,4
+Georgia,Idaho,0.37881427774777,2008,2014,Georgia,Idaho,2008,2014,6
+North Dakota,Ohio,0.37705822208497,2011,2016,North Dakota,Ohio,2011,2016,5
+Mississippi,Wisconsin,0.37649432767772,2012,2014,Mississippi,Wisconsin,2012,2014,2
+South Carolina,Utah,0.3761065484202,2010,2008,Utah,South Carolina,2008,2010,2
+North Dakota,Oregon,0.37511008027184,2011,2015,North Dakota,Oregon,2011,2015,4
+South Carolina,Wisconsin,0.37319504826699,2010,2014,South Carolina,Wisconsin,2010,2014,4
+Georgia,Nebraska,0.36871974447239,2008,2015,Georgia,Nebraska,2008,2015,7
+Illinois,Oklahoma,0.36622891769996,2006,2004,Oklahoma,Illinois,2004,2006,2
+Georgia,Maine,0.36535514762817,2008,2012,Georgia,Maine,2008,2012,4
+Missouri,Wisconsin,0.36375421668054,2010,2014,Missouri,Wisconsin,2010,2014,4
+Florida,Georgia,0.36308463207317,2013,2008,Georgia,Florida,2008,2013,5
+Georgia,North Carolina,0.36187873016818,2008,2005,North Carolina,Georgia,2005,2008,3
+Utah,West Virginia,0.36154880361345,2008,2018,Utah,West Virginia,2008,2018,10
+Kentucky,Oregon,0.35943960962746,2012,2015,Kentucky,Oregon,2012,2015,3
+Georgia,Michigan,0.35916085442686,2008,2006,Michigan,Georgia,2006,2008,2
+Illinois,Mississippi,0.35858757199467,2006,2012,Illinois,Mississippi,2006,2012,6
+Kansas,Ohio,0.35858365606483,2004,2016,Kansas,Ohio,2004,2016,12
+Georgia,Indiana,0.35832263959774,2008,2011,Georgia,Indiana,2008,2011,3
+Georgia,Washington,0.35757606741653,2008,2017,Georgia,Washington,2008,2017,9
+West Virginia,Wisconsin,0.35727459360762,2018,2014,Wisconsin,West Virginia,2014,2018,4
+Kansas,Oregon,0.35704489416999,2004,2015,Kansas,Oregon,2004,2015,11
+Texas,Utah,0.35551951035854,2015,2008,Utah,Texas,2008,2015,7
+Ohio,Utah,0.35430392063437,2016,2008,Utah,Ohio,2008,2016,8
+Georgia,North Dakota,0.35167203029749,2008,2011,Georgia,North Dakota,2008,2011,3
+Montana,South Dakota,0.34969794774743,2009,2010,Montana,South Dakota,2009,2010,1
+Ohio,Wisconsin,0.34718145003966,2016,2014,Wisconsin,Ohio,2014,2016,2
+Texas,Wisconsin,0.34591719403803,2015,2014,Wisconsin,Texas,2014,2015,1
+Georgia,Texas,0.34269629213779,2008,2015,Georgia,Texas,2008,2015,7
+Hawaii,Maryland,0.34253243756557,2006,2018,Hawaii,Maryland,2006,2018,12
+Illinois,West Virginia,0.34248826500581,2006,2018,Illinois,West Virginia,2006,2018,12
+Kansas,Wisconsin,0.33904702672184,2004,2014,Kansas,Wisconsin,2004,2014,10
+Michigan,Utah,0.33733936338619,2006,2008,Michigan,Utah,2006,2008,2
+Nebraska,Utah,0.33679790039421,2015,2008,Utah,Nebraska,2008,2015,7
+Kentucky,Utah,0.33616545489756,2012,2008,Utah,Kentucky,2008,2012,4
+Maryland,Ohio,0.3359309391159,2018,2016,Ohio,Maryland,2016,2018,2
+Hawaii,South Dakota,0.33552200514392,2006,2010,Hawaii,South Dakota,2006,2010,4
+Illinois,Ohio,0.33512116489687,2006,2016,Illinois,Ohio,2006,2016,10
+Illinois,Nebraska,0.33508883486354,2006,2015,Illinois,Nebraska,2006,2015,9
+Oregon,Texas,0.33077541129738,2015,2015,Oregon,Texas,2015,2015,0
+Georgia,South Carolina,0.32714686535482,2008,2010,Georgia,South Carolina,2008,2010,2
+Colorado,Montana,0.32583806748745,2008,2009,Colorado,Montana,2008,2009,1
+Idaho,Illinois,0.32334019488543,2014,2006,Illinois,Idaho,2006,2014,8
+Hawaii,Kentucky,0.32208015136955,2006,2012,Hawaii,Kentucky,2006,2012,6
+Hawaii,Minnesota,0.31875120690716,2006,2015,Hawaii,Minnesota,2006,2015,9
+Louisiana,Michigan,0.31741517728289,2008,2006,Michigan,Louisiana,2006,2008,2
+Georgia,South Dakota,0.31518788715004,2008,2010,Georgia,South Dakota,2008,2010,2
+Hawaii,Nebraska,0.31450828676537,2006,2015,Hawaii,Nebraska,2006,2015,9
+Georgia,Oregon,0.31375528787085,2008,2015,Georgia,Oregon,2008,2015,7
+Illinois,Minnesota,0.31162646943195,2006,2015,Illinois,Minnesota,2006,2015,9
+Idaho,Montana,0.3098421127834,2014,2009,Montana,Idaho,2009,2014,5
+Illinois,Tennessee,0.30875466392634,2006,2009,Illinois,Tennessee,2006,2009,3
+Illinois,Virginia,0.30822735369565,2006,2006,Illinois,Virginia,2006,2006,0
+Illinois,Washington,0.30598147741189,2006,2017,Illinois,Washington,2006,2017,11
+Montana,West Virginia,0.30191458413954,2009,2018,Montana,West Virginia,2009,2018,9
+Illinois,Maine,0.30172103267071,2006,2012,Illinois,Maine,2006,2012,6
+Illinois,Massachusetts,0.3013149214204,2006,2006,Illinois,Massachusetts,2006,2006,0
+Kentucky,Wisconsin,0.30110231527187,2012,2014,Kentucky,Wisconsin,2012,2014,2
+Illinois,Texas,0.29947066971218,2006,2015,Illinois,Texas,2006,2015,9
+Minnesota,Montana,0.29891069550355,2015,2009,Montana,Minnesota,2009,2015,6
+Hawaii,Oklahoma,0.29883216810443,2006,2004,Oklahoma,Hawaii,2004,2006,2
+Montana,Utah,0.29385895007029,2009,2008,Utah,Montana,2008,2009,1
+Kentucky,Maryland,0.2928617628928,2012,2018,Kentucky,Maryland,2012,2018,6
+Illinois,North Carolina,0.29241827598988,2006,2005,North Carolina,Illinois,2005,2006,1
+Kentucky,Massachusetts,0.29226289290784,2012,2006,Massachusetts,Kentucky,2006,2012,6
+Montana,Virginia,0.29199509915488,2009,2006,Virginia,Montana,2006,2009,3
+Montana,Washington,0.29198954580718,2009,2017,Montana,Washington,2009,2017,8
+Illinois,Indiana,0.29196628372906003,2006,2011,Illinois,Indiana,2006,2011,5
+Indiana,Montana,0.29081243025763,2011,2009,Montana,Indiana,2009,2011,2
+Massachusetts,Michigan,0.2891496782327,2006,2006,Massachusetts,Michigan,2006,2006,0
+Illinois,Missouri,0.28807571666497,2006,2010,Illinois,Missouri,2006,2010,4
+Michigan,Ohio,0.2871656670182,2006,2016,Michigan,Ohio,2006,2016,10
+Hawaii,Oregon,0.2868930735016,2006,2015,Hawaii,Oregon,2006,2015,9
+Hawaii,Mississippi,0.28621779900432,2006,2012,Hawaii,Mississippi,2006,2012,6
+Illinois,Wisconsin,0.28577648564948,2006,2014,Illinois,Wisconsin,2006,2014,8
+Ohio,Oregon,0.28496021642414,2016,2015,Oregon,Ohio,2015,2016,1
+Maine,Montana,0.28401596524917,2012,2009,Montana,Maine,2009,2012,3
+Hawaii,Virginia,0.28265878871896,2006,2006,Hawaii,Virginia,2006,2006,0
+Florida,Montana,0.28057679956329,2013,2009,Montana,Florida,2009,2013,4
+Michigan,Wisconsin,0.27867209613597,2006,2014,Michigan,Wisconsin,2006,2014,8
+Montana,North Carolina,0.27838646342781,2009,2005,North Carolina,Montana,2005,2009,4
+Alabama,Illinois,0.27832587442977,2012,2006,Illinois,Alabama,2006,2012,6
+Alabama,Hawaii,0.2767307373465,2012,2006,Hawaii,Alabama,2006,2012,6
+Hawaii,Kansas,0.27555135135267,2006,2004,Kansas,Hawaii,2004,2006,2
+Massachusetts,Utah,0.27543427340723,2006,2008,Massachusetts,Utah,2006,2008,2
+Colorado,Michigan,0.27266670557489,2008,2006,Michigan,Colorado,2006,2008,2
+Arkansas,Montana,0.27220519757089,2011,2009,Montana,Arkansas,2009,2011,2
+Montana,Tennessee,0.27115976545609,2009,2009,Montana,Tennessee,2009,2009,0
+Illinois,Utah,0.27066498978463,2006,2008,Illinois,Utah,2006,2008,2
+Florida,Illinois,0.2700199020928,2013,2006,Illinois,Florida,2006,2013,7
+Arkansas,Hawaii,0.2688598767338,2011,2006,Hawaii,Arkansas,2006,2011,5
+Louisiana,Massachusetts,0.26874929285048,2008,2006,Massachusetts,Louisiana,2006,2008,2
+Alabama,Montana,0.26773670589715,2012,2009,Montana,Alabama,2009,2012,3
+Montana,Oklahoma,0.26499628894548,2009,2004,Oklahoma,Montana,2004,2009,5
+Arkansas,Illinois,0.26314268285818,2011,2006,Illinois,Arkansas,2006,2011,5
+Montana,South Carolina,0.26294701901089,2009,2010,Montana,South Carolina,2009,2010,1
+Hawaii,Montana,0.2620244317634,2006,2009,Hawaii,Montana,2006,2009,3
+Hawaii,Idaho,0.26129620792473,2006,2014,Hawaii,Idaho,2006,2014,8
+Hawaii,Indiana,0.25796408679625,2006,2011,Hawaii,Indiana,2006,2011,5
+Louisiana,Maryland,0.2578054701835,2008,2018,Louisiana,Maryland,2008,2018,10
+Mississippi,Montana,0.25557944854314,2012,2009,Montana,Mississippi,2009,2012,3
+Illinois,Michigan,0.25220707940922,2006,2006,Illinois,Michigan,2006,2006,0
+Florida,Hawaii,0.25041268001751,2013,2006,Hawaii,Florida,2006,2013,7
+Hawaii,West Virginia,0.250275468449,2006,2018,Hawaii,West Virginia,2006,2018,12
+Colorado,Maryland,0.24665720593062,2008,2018,Colorado,Maryland,2008,2018,10
+Hawaii,Washington,0.24646647547942,2006,2017,Hawaii,Washington,2006,2017,11
+Massachusetts,Wisconsin,0.2449614047768,2006,2014,Massachusetts,Wisconsin,2006,2014,8
+Illinois,South Carolina,0.24330162836296,2006,2010,Illinois,South Carolina,2006,2010,4
+Georgia,Maryland,0.2421184927753,2008,2018,Georgia,Maryland,2008,2018,10
+Maryland,Michigan,0.24159004310033,2018,2006,Michigan,Maryland,2006,2018,12
+Montana,Oregon,0.24133867916186,2009,2015,Montana,Oregon,2009,2015,6
+Hawaii,Tennessee,0.23919720114166,2006,2009,Hawaii,Tennessee,2006,2009,3
+Illinois,North Dakota,0.2390270486081,2006,2011,Illinois,North Dakota,2006,2011,5
+Louisiana,Montana,0.23893642423895,2008,2009,Louisiana,Montana,2008,2009,1
+Hawaii,Maine,0.23867183165991,2006,2012,Hawaii,Maine,2006,2012,6
+Hawaii,Missouri,0.23553361892476,2006,2010,Hawaii,Missouri,2006,2010,4
+Kansas,Massachusetts,0.23514125027491,2004,2006,Kansas,Massachusetts,2004,2006,2
+Montana,Ohio,0.23452458767132,2009,2016,Montana,Ohio,2009,2016,7
+Kentucky,Michigan,0.23396626242739,2012,2006,Michigan,Kentucky,2006,2012,6
+Michigan,Minnesota,0.23349405324914,2006,2015,Michigan,Minnesota,2006,2015,9
+Montana,Nebraska,0.23197664080206,2009,2015,Montana,Nebraska,2009,2015,6
+Illinois,Maryland,0.23091390118131,2006,2018,Illinois,Maryland,2006,2018,12
+Missouri,Montana,0.23077419402947,2010,2009,Montana,Missouri,2009,2010,1
+Illinois,South Dakota,0.23044241380649,2006,2010,Illinois,South Dakota,2006,2010,4
+Maryland,West Virginia,0.22841289768447,2018,2018,Maryland,West Virginia,2018,2018,0
+Maryland,Mississippi,0.22743066570419,2018,2012,Mississippi,Maryland,2012,2018,6
+Georgia,Montana,0.22484796784328,2008,2009,Georgia,Montana,2008,2009,1
+Hawaii,North Carolina,0.22453101138792,2006,2005,North Carolina,Hawaii,2005,2006,1
+Massachusetts,Ohio,0.22061911045936,2006,2016,Massachusetts,Ohio,2006,2016,10
+Maryland,Massachusetts,0.21973762870037,2018,2006,Massachusetts,Maryland,2006,2018,12
+Massachusetts,Mississippi,0.21787717033421,2006,2012,Massachusetts,Mississippi,2006,2012,6
+Montana,Texas,0.21694754885407,2009,2015,Montana,Texas,2009,2015,6
+Maryland,Oklahoma,0.21579814851278,2018,2004,Oklahoma,Maryland,2004,2018,14
+Hawaii,Texas,0.21472000787881,2006,2015,Hawaii,Texas,2006,2015,9
+Maryland,Minnesota,0.21239767152963,2018,2015,Minnesota,Maryland,2015,2018,3
+Montana,North Dakota,0.20855819735836,2009,2011,Montana,North Dakota,2009,2011,2
+Florida,Michigan,0.20727818643661,2013,2006,Michigan,Florida,2006,2013,7
+Michigan,Oregon,0.20411789622035,2006,2015,Michigan,Oregon,2006,2015,9
+Idaho,Maryland,0.2035941126154,2014,2018,Idaho,Maryland,2014,2018,4
+Illinois,Oregon,0.20282312076362,2006,2015,Illinois,Oregon,2006,2015,9
+Maryland,Virginia,0.20087926677666,2018,2006,Virginia,Maryland,2006,2018,12
+Kansas,Montana,0.1986639765181,2004,2009,Kansas,Montana,2004,2009,5
+Michigan,Mississippi,0.19748163540481,2006,2012,Michigan,Mississippi,2006,2012,6
+Hawaii,North Dakota,0.19280056273002,2006,2011,Hawaii,North Dakota,2006,2011,5
+Kansas,Maryland,0.19184839586034,2004,2018,Kansas,Maryland,2004,2018,14
+Kentucky,Montana,0.19158157080587,2012,2009,Montana,Kentucky,2009,2012,3
+Maryland,Utah,0.19091632393394,2018,2008,Utah,Maryland,2008,2018,10
+Maryland,Washington,0.19090540854398,2018,2017,Washington,Maryland,2017,2018,1
+Michigan,Nebraska,0.19048674771229,2006,2015,Michigan,Nebraska,2006,2015,9
+Michigan,Virginia,0.1848679023167,2006,2006,Michigan,Virginia,2006,2006,0
+Maryland,North Carolina,0.18464916923028,2018,2005,North Carolina,Maryland,2005,2018,13
+Maryland,Texas,0.18274464209354,2018,2015,Texas,Maryland,2015,2018,3
+Alabama,Maryland,0.18206867480159,2012,2018,Alabama,Maryland,2012,2018,6
+Maryland,Oregon,0.18113016679474,2018,2015,Oregon,Maryland,2015,2018,3
+Maryland,Missouri,0.18102232832587,2018,2010,Missouri,Maryland,2010,2018,8
+Idaho,Michigan,0.17960849532262,2014,2006,Michigan,Idaho,2006,2014,8
+Maine,Maryland,0.17802548096303,2012,2018,Maine,Maryland,2012,2018,6
+Hawaii,South Carolina,0.1780237669671,2006,2010,Hawaii,South Carolina,2006,2010,4
+Florida,Maryland,0.17587320594933,2013,2018,Florida,Maryland,2013,2018,5
+Arkansas,Michigan,0.17490606557865,2011,2006,Michigan,Arkansas,2006,2011,5
+Maine,Michigan,0.17440418526174,2012,2006,Michigan,Maine,2006,2012,6
+Maryland,Tennessee,0.17437654325275,2018,2009,Tennessee,Maryland,2009,2018,9
+Illinois,Montana,0.1741763617834,2006,2009,Illinois,Montana,2006,2009,3
+Indiana,Maryland,0.1737019607192,2011,2018,Indiana,Maryland,2011,2018,7
+Kansas,Michigan,0.1733889772514,2004,2006,Kansas,Michigan,2004,2006,2
+Michigan,Oklahoma,0.17289356449285,2006,2004,Oklahoma,Michigan,2004,2006,2
+Arkansas,Maryland,0.17115886220823,2011,2018,Arkansas,Maryland,2011,2018,7
+Maryland,North Dakota,0.16902821327998999,2018,2011,North Dakota,Maryland,2011,2018,7
+Maryland,South Carolina,0.16889282799918,2018,2010,South Carolina,Maryland,2010,2018,8
+Massachusetts,Virginia,0.16724063786321,2006,2006,Massachusetts,Virginia,2006,2006,0
+Maryland,Nebraska,0.1669321558208,2018,2015,Nebraska,Maryland,2015,2018,3
+Maryland,Wisconsin,0.16612757659723,2018,2014,Wisconsin,Maryland,2014,2018,4
+Michigan,West Virginia,0.16588981069828,2006,2018,Michigan,West Virginia,2006,2018,12
+Alabama,Michigan,0.16266102444159,2012,2006,Michigan,Alabama,2006,2012,6
+Massachusetts,Oklahoma,0.16025158108611,2006,2004,Oklahoma,Massachusetts,2004,2006,2
+Michigan,South Dakota,0.15857983939555,2006,2010,Michigan,South Dakota,2006,2010,4
+Michigan,Missouri,0.15774795862541,2006,2010,Michigan,Missouri,2006,2010,4
+Michigan,Tennessee,0.1537076429391,2006,2009,Michigan,Tennessee,2006,2009,3
+Massachusetts,Missouri,0.15092122174769,2006,2010,Massachusetts,Missouri,2006,2010,4
+Alabama,Massachusetts,0.15070269916693,2012,2006,Massachusetts,Alabama,2006,2012,6
+Indiana,Michigan,0.14735929329546,2011,2006,Michigan,Indiana,2006,2011,5
+Massachusetts,Tennessee,0.14612536267923,2006,2009,Massachusetts,Tennessee,2006,2009,3
+Arkansas,Massachusetts,0.14529284389521,2011,2006,Massachusetts,Arkansas,2006,2011,5
+Massachusetts,Nebraska,0.14493515150079,2006,2015,Massachusetts,Nebraska,2006,2015,9
+Michigan,Washington,0.14442368319676,2006,2017,Michigan,Washington,2006,2017,11
+Massachusetts,West Virginia,0.14251691428686,2006,2018,Massachusetts,West Virginia,2006,2018,12
+Michigan,Montana,0.14250136385468,2006,2009,Michigan,Montana,2006,2009,3
+Maryland,South Dakota,0.13822242875156,2018,2010,South Dakota,Maryland,2010,2018,8
+Massachusetts,Oregon,0.1365677275604,2006,2015,Massachusetts,Oregon,2006,2015,9
+Massachusetts,Minnesota,0.13459984419037,2006,2015,Massachusetts,Minnesota,2006,2015,9
+Michigan,North Carolina,0.12426832862837,2006,2005,North Carolina,Michigan,2005,2006,1
+Idaho,Massachusetts,0.11707486277787,2014,2006,Massachusetts,Idaho,2006,2014,8
+Michigan,South Carolina,0.11218438714398,2006,2010,Michigan,South Carolina,2006,2010,4
+Michigan,Texas,0.11060974244712,2006,2015,Michigan,Texas,2006,2015,9
+Massachusetts,North Dakota,0.10867524216156,2006,2011,Massachusetts,North Dakota,2006,2011,5
+Florida,Massachusetts,0.10823868830138,2013,2006,Massachusetts,Florida,2006,2013,7
+Maryland,Montana,0.10504494535013,2018,2009,Montana,Maryland,2009,2018,9
+Michigan,North Dakota,0.10495473493473,2006,2011,Michigan,North Dakota,2006,2011,5
+Indiana,Massachusetts,0.10425044109076,2011,2006,Massachusetts,Indiana,2006,2011,5
+Maine,Massachusetts,0.10244281119894,2012,2006,Massachusetts,Maine,2006,2012,6
+Massachusetts,Washington,0.08976767539257,2006,2017,Massachusetts,Washington,2006,2017,11
+Massachusetts,Texas,0.08889948438909,2006,2015,Massachusetts,Texas,2006,2015,9
+Massachusetts,North Carolina,0.08497282423577,2006,2005,North Carolina,Massachusetts,2005,2006,1
+Massachusetts,Montana,0.08391863844479,2006,2009,Massachusetts,Montana,2006,2009,3
+Massachusetts,South Dakota,0.08201531494982,2006,2010,Massachusetts,South Dakota,2006,2010,4
+Massachusetts,South Carolina,0.06712212359419,2006,2010,Massachusetts,South Carolina,2006,2010,4

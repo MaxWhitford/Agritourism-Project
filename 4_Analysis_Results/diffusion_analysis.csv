@@ -1,0 +1,36 @@
+state,enact_year,most_similar_pred,similarity_to_pred
+Alabama,2012,Virginia,0.88355205794314
+Arkansas,2011,Virginia,0.82604894297144
+Colorado,2008,Oklahoma,0.64081174785375
+Florida,2013,Virginia,0.88083724739495
+Georgia,2008,Hawaii,0.52673872427636
+Hawaii,2006,Oklahoma,0.29883216810443
+Idaho,2014,North Carolina,0.95979465973498
+Illinois,2006,Kansas,0.52577016672594
+Indiana,2011,North Carolina,0.80212561022577
+Kansas,2004,NA,NA
+Kentucky,2012,Oklahoma,0.84212198620595
+Louisiana,2008,Oklahoma,0.85403809090147
+Maine,2012,Virginia,0.91205182454532
+Maryland,2018,Hawaii,0.34253243756557
+Massachusetts,2006,Kansas,0.23514125027491
+Michigan,2006,Kansas,0.1733889772514
+Minnesota,2015,Virginia,0.87636077942545
+Mississippi,2012,Oklahoma,0.93582186893794
+Missouri,2010,Kansas,0.8337123683679
+Montana,2009,Colorado,0.32583806748745
+Nebraska,2015,Tennessee,0.66997991664317
+North Carolina,2005,Oklahoma,0.94529692992744
+North Dakota,2011,Missouri,0.86799001445244
+Ohio,2016,Hawaii,0.55811680492269
+Oklahoma,2004,NA,NA
+Oregon,2015,Wisconsin,0.5630118198661
+South Carolina,2010,North Carolina,0.91894344598187
+South Dakota,2010,Virginia,0.58314486701385
+Tennessee,2009,Virginia,0.94216502029747
+Texas,2015,North Carolina,0.80899839316668
+Utah,2008,Hawaii,0.46652971294593
+Virginia,2006,North Carolina,0.95218339685283
+Washington,2017,North Carolina,0.96062839109357
+West Virginia,2018,Virginia,0.86276196744739
+Wisconsin,2014,Utah,0.81913107351766

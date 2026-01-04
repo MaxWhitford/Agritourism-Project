@@ -1,0 +1,33 @@
+state,total_cases,pre_statute_cases,post_statute_cases,pre_statute_liability,pre_statute_equine,enact_year
+Alabama,5,4,1,1,1,2012
+Arkansas,2,1,1,0,0,2011
+Colorado,6,5,1,2,2,2008
+Florida,1,0,1,0,0,2013
+Georgia,12,8,4,4,1,2008
+Hawaii,1,1,0,0,1,2006
+Idaho,1,1,0,0,0,2014
+Illinois,9,7,2,4,0,2006
+Indiana,9,6,3,1,1,2011
+Kansas,1,1,0,0,0,2004
+Kentucky,9,7,2,1,0,2012
+Louisiana,18,13,5,1,0,2008
+Maine,2,1,1,0,1,2012
+Maryland,1,1,0,1,0,2018
+Massachusetts,7,5,2,1,0,2006
+Michigan,8,4,4,1,0,2006
+Minnesota,7,5,2,2,1,2015
+Missouri,2,2,0,0,0,2010
+Montana,4,4,0,1,0,2009
+Nebraska,5,4,1,2,0,2015
+North Carolina,24,3,21,2,0,2005
+North Dakota,1,1,0,1,0,2011
+Oregon,11,6,5,0,0,2015
+South Carolina,1,1,0,0,0,2010
+South Dakota,2,2,0,0,1,2010
+Tennessee,8,3,5,2,0,2009
+Texas,10,9,1,2,3,2015
+Utah,1,1,0,0,0,2008
+Virginia,1,1,0,0,0,2006
+Washington,4,0,4,0,0,2017
+West Virginia,1,0,1,0,0,2018
+Wisconsin,9,9,0,2,1,2014
