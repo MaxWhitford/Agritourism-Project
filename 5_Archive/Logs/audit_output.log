@@ -1,0 +1,332 @@
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.1     ✔ stringr   1.6.0
+✔ ggplot2   4.0.0     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.2.0     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+stm v1.3.8 successfully loaded. See ?stm for help. 
+ Papers, resources, and other materials at structuraltopicmodel.com
+Package version: 4.3.1
+Unicode version: 14.0
+ICU version: 71.1
+Parallel computing: disabled
+See https://quanteda.io for tutorials and examples.
+Warning message:
+package ‘gt’ was built under R version 4.5.2 
+here() starts at /Users/mbwhitford/Dropbox/classes/2024/papers/Agritourism Paper/Agritourism Laws Project
+====================================================================== 
+AGRITOURISM ANALYSIS AUDIT REPORT
+====================================================================== 
+
+=== ISSUE 1: STM MODEL DOCUMENT COUNT ===
+
+Objects in stm_model_results.RData:
+[1] "model"    "reg_data"
+
+Model found as 'model'
+Number of documents: 32 
+Number of topics: 4 
+Vocabulary size: 954 
+
+Objects in full_analysis_results.RData:
+[1] "analysis_data" "model"         "reg_data"      "sim_long"     
+[5] "stm_model"    
+
+Model found as 'stm_model'
+Number of documents: 43 
+Number of topics: 4 
+
+
+=== ISSUE 2: WHICH MODEL IS USED? ===
+
+analysis_data has 43 states
+States:
+ [1] "Alabama"        "Arkansas"       "Colorado"       "Florida"       
+ [5] "Georgia"        "Hawaii"         "Idaho"          "Illinois"      
+ [9] "Indiana"        "Kansas"         "Kentucky"       "Louisiana"     
+[13] "Maine"          "Maryland"       "Massachusetts"  "Michigan"      
+[17] "Minnesota"      "Mississippi"    "Missouri"       "Montana"       
+[21] "Nebraska"       "North Carolina" "North Dakota"   "Ohio"          
+[25] "Oklahoma"       "Oregon"         "South Carolina" "South Dakota"  
+[29] "Tennessee"      "Texas"          "Utah"           "Virginia"      
+[33] "Washington"     "West Virginia"  "Wisconsin"      "Alaska"        
+[37] "Arizona"        "Delaware"       "Iowa"           "New Hampshire" 
+[41] "New York"       "Pennsylvania"   "Vermont"       
+
+
+=== ISSUE 3: TOPIC LABEL VALIDATION ===
+
+CURRENT LABELS vs ACTUAL TOP WORDS:
+
+Topic 1 - LABELED AS: 'Liability/Warning Language'
+  FREX words: professional, registered, agritourism, loss, causes, dangerous, proximately, location, contain, contract, clearly, warning, engages, providing, notice 
+  ASSESSMENT: ✓ LABEL MATCHES
+
+Topic 2 - LABELED AS: 'Activity Definition'
+  FREX words: generally, tourist, advisory, agri-tourism, commissioner, attraction, accepted, practices, director, plan, rules, on-farm, management, operation, council 
+  ASSESSMENT: ? UNCLEAR - Review needed
+
+Topic 3 - LABELED AS: 'Land Use/Zoning'
+  FREX words: building, board, energy, lots, greenhouse, lot, market, permit, acres, zoning, devoted, acre, power, regulate, uses 
+  ASSESSMENT: ✓ LABEL MATCHES
+
+Topic 4 - LABELED AS: 'Recreational Use'
+  FREX words: sport, provider, sports, recreational, premises, opportunity, recreation, promotion, place, cause, civil, negligence, owner, s, takes 
+  ASSESSMENT: ✓ LABEL MATCHES
+
+
+=== ISSUE 4: DOCUMENT COUNT DISCREPANCY ===
+
+Text files in directory: 44 
+States in analysis_data_full_sample.csv: 43 
+Documents in STM model: 43 
+
+
+=== ISSUE 5: SIMILARITY MEASURE ===
+
+Geographic diffusion table uses: 1 - Euclidean distance
+SPPQ_Full_Sample_Analysis.R uses: Cosine similarity
+
+⚠️  These are DIFFERENT measures! Need to verify consistency.
+
+
+====================================================================== 
+RECOMMENDED FIXES
+====================================================================== 
+
+1. RE-RUN STM on all 43 states and save to stm_model_results.RData
+   - The current saved model appears to be from an older analysis
+
+2. UPDATE TOPIC LABELS based on actual word content:
+   - Topic 1: 'Liability/Warning' → KEEP (words match)
+   - Topic 2: 'Activity Definition' → CHANGE TO 'Tax/Economic Incentives'
+   - Topic 3: 'Land Use/Zoning' → CHANGE TO 'Recreation/Tourism'
+   - Topic 4: 'Recreational Use' → CHANGE TO 'Governance/Administration'
+
+3. VERIFY SIMILARITY MEASURE is consistent across all analyses
+
+4. ADD K-SELECTION JUSTIFICATION (semantic coherence + exclusivity)
+
+====================================================================== 
+RUNNING CORRECTED ANALYSIS NOW...
+====================================================================== 
+
+States with text: 43 
+DFM dimensions: 43 1494 
+Documents: 43 
+Features: 1494 
+
+Fitting STM with K=4 on 43 documents...
+Beginning Spectral Initialization 
+	 Calculating the gram matrix...
+	 Finding anchor words...
+ 	....
+	 Recovering initialization...
+ 	..............
+Initialization complete.
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 1 (approx. per word bound = -6.086) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 2 (approx. per word bound = -5.902, relative change = 3.019e-02) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 3 (approx. per word bound = -5.871, relative change = 5.269e-03) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 4 (approx. per word bound = -5.862, relative change = 1.569e-03) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 5 (approx. per word bound = -5.858, relative change = 7.026e-04) 
+Topic 1: agritourism, activity, participant, activities, injury 
+ Topic 2: farm, agricultural, operation, department, tourism 
+ Topic 3: agricultural, land, use, county, building 
+ Topic 4: activity, agricultural, recreational, participant, tourism 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 6 (approx. per word bound = -5.855, relative change = 4.193e-04) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 7 (approx. per word bound = -5.854, relative change = 2.625e-04) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 8 (approx. per word bound = -5.853, relative change = 1.648e-04) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 9 (approx. per word bound = -5.852, relative change = 1.271e-04) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 10 (approx. per word bound = -5.851, relative change = 9.611e-05) 
+Topic 1: agritourism, activity, participant, injury, professional 
+ Topic 2: farm, agricultural, operation, department, practices 
+ Topic 3: agricultural, land, use, county, building 
+ Topic 4: activity, agricultural, participant, recreational, tourism 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 11 (approx. per word bound = -5.851, relative change = 7.607e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 12 (approx. per word bound = -5.851, relative change = 6.715e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 13 (approx. per word bound = -5.850, relative change = 6.226e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 14 (approx. per word bound = -5.850, relative change = 5.929e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 15 (approx. per word bound = -5.849, relative change = 5.466e-05) 
+Topic 1: agritourism, activity, participant, professional, injury 
+ Topic 2: farm, agricultural, operation, department, practices 
+ Topic 3: agricultural, land, use, county, building 
+ Topic 4: activity, agricultural, participant, recreational, tourism 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 16 (approx. per word bound = -5.849, relative change = 4.788e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 17 (approx. per word bound = -5.849, relative change = 4.117e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 18 (approx. per word bound = -5.849, relative change = 4.030e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 19 (approx. per word bound = -5.849, relative change = 2.460e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 20 (approx. per word bound = -5.848, relative change = 1.851e-05) 
+Topic 1: agritourism, activity, participant, professional, injury 
+ Topic 2: agricultural, farm, operation, department, practices 
+ Topic 3: agricultural, land, use, county, building 
+ Topic 4: activity, agricultural, participant, recreational, tourism 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 21 (approx. per word bound = -5.848, relative change = 1.628e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 22 (approx. per word bound = -5.848, relative change = 1.462e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 23 (approx. per word bound = -5.848, relative change = 1.275e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 24 (approx. per word bound = -5.848, relative change = 1.138e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 25 (approx. per word bound = -5.848, relative change = 1.166e-05) 
+Topic 1: agritourism, activity, participant, professional, injury 
+ Topic 2: agricultural, farm, operation, department, agriculture 
+ Topic 3: agricultural, land, use, county, building 
+ Topic 4: activity, agricultural, participant, recreational, tourism 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 26 (approx. per word bound = -5.848, relative change = 1.060e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Completing Iteration 27 (approx. per word bound = -5.848, relative change = 1.001e-05) 
+...........................................
+Completed E-Step (0 seconds). 
+Completed M-Step. 
+Model Converged 
+
+
+=== CORRECTED STM RESULTS (N= 43 ) ===
+
+Topic 1 FREX: professional, registered, agritourism, causes, proximately, dangerous, contain, location, contract, clearly 
+Topic 2 FREX: generally, tourist, agri-tourism, advisory, commissioner, attraction, director, accepted, practices, plan 
+Topic 3 FREX: energy, lots, lot, market, building, acres, zoning, greenhouse, board, devoted 
+Topic 4 FREX: sport, sports, provider, recreational, opportunity, premises, recreation, promotion, place, cause 
+
+=== MODEL DIAGNOSTICS ===
+Exclusivity by topic: 9.06 8.75 8.2 8.21 
+Mean exclusivity: 8.55 
+Semantic coherence by topic: -8.42 -64.7 -41.15 -26.16 
+Mean coherence: -35.11 
+
+=== CORRECTED ANALYSIS DATA ===
+Number of states: 43 
+
+✓ Saved corrected model to stm_model_results.RData
+  - model: STM with K=4 on N= 43  documents
+  - documents: STM document list
+  - vocab: STM vocabulary
+  - reg_data: Analysis data with topic proportions
+
+=== CREATING CORRECTED TOPIC TABLE ===
+
+SUGGESTED TOPIC LABELS:
+Topic 1: Recreation/Tourism
+  Words: professional, registered, agritourism, causes, proximately, dangerous, contain
+
+Topic 2: Recreation/Tourism
+  Words: generally, tourist, agri-tourism, advisory, commissioner, attraction, director
+
+Topic 3: Tax/Economic Incentives
+  Words: energy, lots, lot, market, building, acres, zoning
+
+Topic 4: Recreation/Tourism
+  Words: sport, sports, provider, recreational, opportunity, premises, recreation
+
+file:////var/folders/md/6q0yz8qn1z9fclg552k_6lh40000gn/T//RtmpGZFu6l/file1554e524e3511.html screenshot completed
+
+✓ Saved corrected topic table
+
+
+====================================================================== 
+AUDIT COMPLETE - SUMMARY OF CHANGES
+
+====================================================================== 
+
+1. STM MODEL: Re-estimated on N= 43 states (was 32)
+
+2. TOPIC LABELS: Suggested corrections based on word content:
+   Topic 1: Recreation/Tourism
+   Topic 2: Recreation/Tourism
+   Topic 3: Tax/Economic Incentives
+   Topic 4: Recreation/Tourism
+
+3. MODEL DIAGNOSTICS:
+   Mean exclusivity: 8.55
+   Mean coherence: -35.11
+
+4. FILES UPDATED:
+   - stm_model_results.RData (now has N= 43  model)
+   - table_topic_validation_CORRECTED.png
+
+5. REMAINING MANUAL TASKS:
+   - Review suggested topic labels and finalize
+   - Update paper text to match new labels
+   - Verify all figures use consistent N= 43 
+   - Re-run beta regression with corrected data

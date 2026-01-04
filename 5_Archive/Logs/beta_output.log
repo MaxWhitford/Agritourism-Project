@@ -1,0 +1,609 @@
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.1     ✔ stringr   1.6.0
+✔ ggplot2   4.0.0     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.2.0     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Warning message:
+package ‘gt’ was built under R version 4.5.2 
+here() starts at /Users/mbwhitford/Dropbox/classes/2024/papers/Agritourism Paper/Agritourism Laws Project
+Rows: 43 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (4): state, notes, adoption_wave, dominant_topic
+dbl (6): enact_year, topic1, topic2, topic3, topic4, dist_to_centroid
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 35 Columns: 25
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): state, st
+dbl (23): year, enact_year, contrib_agri, valueofagsect, pldvpag, govparty_c...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 277 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (6): case_name, citation, state, jurisdiction, description, case_type
+dbl (1): year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Topic 1 range after transformation:
+  Min: 0.0002215832 
+  Max: 0.9983995 
+Warning message:
+In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+Warning message:
+In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+Warning message:
+In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+Warning message:
+In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+Warning messages:
+1: In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+2: In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+3: In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+4: In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+# A tibble: 4 × 8
+  Hypothesis    beta    se      z p_value     n pseudo_r2 Predictor             
+  <chr>        <dbl> <dbl>  <dbl>   <dbl> <int>     <dbl> <chr>                 
+1 H1         -0.0261 0.134 -0.195   0.845    35 -0.000494 Agricultural Contribu…
+2 H2          0.231  0.216  1.07    0.285    35 -0.0138   Agricultural Sector V…
+3 H3          0.763  0.621  1.23    0.219    20 -0.0264   Republican Governor   
+4 H4         -0.0317 0.216 -0.147   0.883    43 -0.000198 Agritourism Cases (lo…
+<div id="gpfaegmfdk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+  <style>#gpfaegmfdk table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#gpfaegmfdk thead, #gpfaegmfdk tbody, #gpfaegmfdk tfoot, #gpfaegmfdk tr, #gpfaegmfdk td, #gpfaegmfdk th {
+  border-style: none;
+}
+
+#gpfaegmfdk p {
+  margin: 0;
+  padding: 0;
+}
+
+#gpfaegmfdk .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#gpfaegmfdk .gt_title {
+  color: #333333;
+  font-size: 12px;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#gpfaegmfdk .gt_subtitle {
+  color: #333333;
+  font-size: 10px;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#gpfaegmfdk .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#gpfaegmfdk .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#gpfaegmfdk .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#gpfaegmfdk .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#gpfaegmfdk .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#gpfaegmfdk .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#gpfaegmfdk .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#gpfaegmfdk .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#gpfaegmfdk .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#gpfaegmfdk .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#gpfaegmfdk .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#gpfaegmfdk .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpfaegmfdk .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#gpfaegmfdk .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#gpfaegmfdk .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#gpfaegmfdk .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpfaegmfdk .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#gpfaegmfdk .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpfaegmfdk .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#gpfaegmfdk .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_footnote {
+  margin: 0px;
+  font-size: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpfaegmfdk .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gpfaegmfdk .gt_sourcenote {
+  font-size: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpfaegmfdk .gt_left {
+  text-align: left;
+}
+
+#gpfaegmfdk .gt_center {
+  text-align: center;
+}
+
+#gpfaegmfdk .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#gpfaegmfdk .gt_font_normal {
+  font-weight: normal;
+}
+
+#gpfaegmfdk .gt_font_bold {
+  font-weight: bold;
+}
+
+#gpfaegmfdk .gt_font_italic {
+  font-style: italic;
+}
+
+#gpfaegmfdk .gt_super {
+  font-size: 65%;
+}
+
+#gpfaegmfdk .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#gpfaegmfdk .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#gpfaegmfdk .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#gpfaegmfdk .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#gpfaegmfdk .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#gpfaegmfdk .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#gpfaegmfdk .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#gpfaegmfdk .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#gpfaegmfdk div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    <tr class="gt_heading">
+      <td colspan="7" class="gt_heading gt_title gt_font_normal" style><span class='gt_from_md'><strong>Table X. Internal Political Economy Does Not Predict Statutory Content</strong></span></td>
+    </tr>
+    <tr class="gt_heading">
+      <td colspan="7" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style><span class='gt_from_md'><em>Beta Regression: Predictors of Liability Topic Proportion (N = 43 States)</em></span></td>
+    </tr>
+    <tr class="gt_col_headings gt_spanner_row">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1" scope="col" id="Hypothesis">Hypothesis</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1" scope="col" id="Predictor">Predictor Variable</th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="3" scope="colgroup" id="Coefficient">
+        <div class="gt_column_spanner">Coefficient</div>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="2" scope="colgroup" id="Model Fit">
+        <div class="gt_column_spanner">Model Fit</div>
+      </th>
+    </tr>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="beta_fmt">β</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="se_fmt">SE</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="p_fmt">p-value</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="n">N</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="r2_fmt">Pseudo R²</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="Hypothesis" class="gt_row gt_left">H1</td>
+<td headers="Predictor" class="gt_row gt_left">Agricultural Contributions (log)<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>1</sup></span></td>
+<td headers="beta_fmt" class="gt_row gt_center">-0.026</td>
+<td headers="se_fmt" class="gt_row gt_center">(0.134)</td>
+<td headers="p_fmt" class="gt_row gt_center">0.845</td>
+<td headers="n" class="gt_row gt_center">35</td>
+<td headers="r2_fmt" class="gt_row gt_center">-0.000</td></tr>
+    <tr><td headers="Hypothesis" class="gt_row gt_left">H2</td>
+<td headers="Predictor" class="gt_row gt_left">Agricultural Sector Value (log)<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>2</sup></span></td>
+<td headers="beta_fmt" class="gt_row gt_center">0.231</td>
+<td headers="se_fmt" class="gt_row gt_center">(0.216)</td>
+<td headers="p_fmt" class="gt_row gt_center">0.285</td>
+<td headers="n" class="gt_row gt_center">35</td>
+<td headers="r2_fmt" class="gt_row gt_center">-0.014</td></tr>
+    <tr><td headers="Hypothesis" class="gt_row gt_left">H3</td>
+<td headers="Predictor" class="gt_row gt_left">Republican Governor<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>3</sup></span></td>
+<td headers="beta_fmt" class="gt_row gt_center">0.763</td>
+<td headers="se_fmt" class="gt_row gt_center">(0.621)</td>
+<td headers="p_fmt" class="gt_row gt_center">0.219</td>
+<td headers="n" class="gt_row gt_center">20</td>
+<td headers="r2_fmt" class="gt_row gt_center">-0.026</td></tr>
+    <tr><td headers="Hypothesis" class="gt_row gt_left">H4</td>
+<td headers="Predictor" class="gt_row gt_left">Agritourism Cases (log)<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>4</sup></span></td>
+<td headers="beta_fmt" class="gt_row gt_center">-0.032</td>
+<td headers="se_fmt" class="gt_row gt_center">(0.216)</td>
+<td headers="p_fmt" class="gt_row gt_center">0.883</td>
+<td headers="n" class="gt_row gt_center">43</td>
+<td headers="r2_fmt" class="gt_row gt_center">-0.000</td></tr>
+  </tbody>
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td class="gt_footnote" colspan="7"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>1</sup></span> Total agricultural PAC contributions to state legislators (logged dollars)</td>
+    </tr>
+    <tr class="gt_footnotes">
+      <td class="gt_footnote" colspan="7"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>2</sup></span> Total value of agricultural sector in state economy (logged dollars)</td>
+    </tr>
+    <tr class="gt_footnotes">
+      <td class="gt_footnote" colspan="7"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>3</sup></span> 1 = Republican governor at time of enactment, 0 = Democratic</td>
+    </tr>
+    <tr class="gt_footnotes">
+      <td class="gt_footnote" colspan="7"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>4</sup></span> Count of agritourism-related court cases in state (logged)</td>
+    </tr>
+    <tr class="gt_sourcenotes">
+      <td class="gt_sourcenote" colspan="7"><span class='gt_from_md'><em>Notes:</em> Dependent variable is Topic 1 (Liability/Warning Language) proportion from Structural Topic Model (K=4). Beta regression used for bounded (0,1) dependent variable. † p &lt; 0.10, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001. Agricultural contributions and sector value from Correlates of State Policy Project (CSPP); case counts from comprehensive legal database search. N varies by covariate availability; H4 uses full sample (N=43).</span></td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+file:////var/folders/md/6q0yz8qn1z9fclg552k_6lh40000gn/T//RtmpgNbh3b/file1523a7c3af302.html screenshot completed
+
+======================================================================
+BETA REGRESSION RESULTS SUMMARY
+======================================================================
+
+All four internal political economy hypotheses remain NON-SIGNIFICANT:
+
+  Agricultural Contributions (log): β = -0.026, p = 0.845
+  Agricultural Sector Value (log): β = 0.231, p = 0.285
+  Republican Governor: β = 0.763, p = 0.219
+  Agritourism Cases (log): β = -0.032, p = 0.883
+
+Conclusion: Internal factors do not predict statutory content.
+Beta regression confirms OLS findings with appropriate model for bounded DV.
+
+Saved: table_political_economy_beta.png

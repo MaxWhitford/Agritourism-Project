@@ -1,0 +1,59 @@
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.1     ✔ stringr   1.6.0
+✔ ggplot2   4.0.0     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.2.0     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Warning message:
+package ‘gt’ was built under R version 4.5.2 
+here() starts at /Users/mbwhitford/Dropbox/classes/2024/papers/Agritourism Paper/Agritourism Laws Project
+Rows: 903 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): state1, state2
+dbl (4): similarity, year1, year2, year_gap
+lgl (1): neighbors
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 43 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (4): state, notes, adoption_wave, dominant_topic
+dbl (6): enact_year, topic1, topic2, topic3, topic4, dist_to_centroid
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Error in `pivot_longer()`:
+! Can't select columns that don't exist.
+✖ Column `state` doesn't exist.
+Backtrace:
+     ▆
+  1. ├─... %>% filter(state1 != state2)
+  2. ├─dplyr::filter(., state1 != state2)
+  3. ├─dplyr::rename(., state1 = state)
+  4. ├─tidyr::pivot_longer(., cols = -state, names_to = "state2", values_to = "similarity")
+  5. ├─tidyr:::pivot_longer.data.frame(., cols = -state, names_to = "state2", values_to = "similarity")
+  6. │ └─tidyr::build_longer_spec(...)
+  7. │   └─tidyselect::eval_select(...)
+  8. │     └─tidyselect:::eval_select_impl(...)
+  9. │       ├─tidyselect:::with_subscript_errors(...)
+ 10. │       │ └─base::withCallingHandlers(...)
+ 11. │       └─tidyselect:::vars_select_eval(...)
+ 12. │         └─tidyselect:::walk_data_tree(expr, data_mask, context_mask)
+ 13. │           └─tidyselect:::eval_minus(expr, data_mask, context_mask, error_call)
+ 14. │             └─tidyselect:::eval_bang(expr, data_mask, context_mask)
+ 15. │               └─tidyselect:::walk_data_tree(expr[[2]], data_mask, context_mask)
+ 16. │                 └─tidyselect:::as_indices_sel_impl(...)
+ 17. │                   └─tidyselect:::as_indices_impl(...)
+ 18. │                     └─tidyselect:::chr_as_locations(x, vars, call = call, arg = arg)
+ 19. │                       └─vctrs::vec_as_location(...)
+ 20. └─vctrs (local) `<fn>`()
+ 21.   └─vctrs:::stop_subscript_oob(...)
+ 22.     └─vctrs:::stop_subscript(...)
+ 23.       └─rlang::abort(...)
+Execution halted

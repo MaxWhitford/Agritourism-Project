@@ -1,0 +1,130 @@
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.1     ✔ stringr   1.6.0
+✔ ggplot2   4.0.0     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.2.0     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+stm v1.3.8 successfully loaded. See ?stm for help. 
+ Papers, resources, and other materials at structuraltopicmodel.com
+Package version: 4.3.1
+Unicode version: 14.0
+ICU version: 71.1
+Parallel computing: disabled
+See https://quanteda.io for tutorials and examples.
+Warning message:
+package ‘gt’ was built under R version 4.5.2 
+here() starts at /Users/mbwhitford/Dropbox/classes/2024/papers/Agritourism Paper/Agritourism Laws Project
+====================================================================== 
+AGRITOURISM POLICY DIFFUSION ANALYSIS
+Consolidated Analysis Script - Final Version
+====================================================================== 
+
+=== PART 1: DATA PREPARATION ===
+
+Total states: 43 
+
+States by wave:
+
+Wave 1 (2003-2006) Wave 2 (2007-2010) Wave 3 (2011-2014) Wave 4 (2015-2018) 
+                 9                 10                 10                 10 
+Wave 5 (2019-2021) 
+                 4 
+
+States with text files: 43 
+
+=== PART 2: STM ESTIMATION ===
+
+Corpus:  43 documents, 1494 features
+
+Fitting STM (K=4)...
+
+--- Model Diagnostics ---
+Exclusivity by topic: 9.06 8.75 8.2 8.21 
+Mean exclusivity: 8.55 
+Coherence by topic: -8.42 -64.7 -41.15 -26.16 
+Mean coherence: -35.11 
+
+--- Top Words (FREX) ---
+Topic 1: professional, registered, agritourism, causes, proximately, dangerous, contain, location, contract, clearly
+Topic 2: generally, tourist, agri-tourism, advisory, commissioner, attraction, director, accepted, practices, plan
+Topic 3: energy, lots, lot, market, building, acres, zoning, greenhouse, board, devoted
+Topic 4: sport, sports, provider, recreational, opportunity, premises, recreation, promotion, place, cause
+
+=== PART 3: ANALYSIS DATASET ===
+
+Analysis data created: 43 states
+
+=== PART 4: SIMILARITY MATRIX ===
+
+Similarity pairs computed: 903 
+
+=== PART 5: GEOGRAPHIC DIFFUSION ===
+
+--- Geographic Diffusion Results ---
+Neighbor pairs: 81 
+Non-neighbor pairs: 822 
+Mean similarity (neighbors): 0.342 
+Mean similarity (non-neighbors): 0.133 
+Difference: 0.209 
+t-statistic: 3.65 
+p-value: 0.0004236 
+Cohen's d: 0.43 
+
+=== PART 6: CONVERGENCE ANALYSIS ===
+
+--- Variance by Wave ---
+# A tibble: 5 × 4
+  adoption_wave          n total_var mean_dist
+  <chr>              <int>     <dbl>     <dbl>
+1 Wave 1 (2003-2006)     9     0.616     0.975
+2 Wave 2 (2007-2010)    10     0.618     0.783
+3 Wave 3 (2011-2014)    10     0.190     0.508
+4 Wave 4 (2015-2018)    10     0.500     0.650
+5 Wave 5 (2019-2021)     4     0.411     0.577
+
+=== PART 7: CREATING FIGURES ===
+
+Saved: figure1_topic_by_state_wave.png
+`geom_smooth()` using formula = 'y ~ x'
+Saved: figure2_convergence_over_time.png
+Saved: figure3_variance_by_wave.png
+
+=== PART 8: CREATING TABLES ===
+
+file:////var/folders/md/6q0yz8qn1z9fclg552k_6lh40000gn/T//RtmpB5nCWG/file1561f26abd8da.html screenshot completed
+Saved: table1_topic_validation.png
+file:////var/folders/md/6q0yz8qn1z9fclg552k_6lh40000gn/T//RtmpB5nCWG/file1561f27eb7e7.html screenshot completed
+Saved: table2_geographic_diffusion.png
+
+=== PART 9: BETA REGRESSION ===
+
+Running beta regressions...
+Warning message:
+In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+Warning message:
+In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+Warning message:
+In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+Warning message:
+In betareg.fit(X, Y, Z, weights, offset, link, link.phi, type, control,  :
+  no valid starting value for precision parameter found, using 1 instead
+
+--- Beta Regression Results ---
+# A tibble: 4 × 6
+  Hypothesis Predictor                            beta    se p_value     n
+  <chr>      <chr>                               <dbl> <dbl>   <dbl> <int>
+1 H1         Agricultural Contributions (log) -0.00812 0.134   0.952    35
+2 H2         Agricultural Sector Value (log)   0.237   0.216   0.274    35
+3 H3         Republican Governor               0.806   0.623   0.196    20
+4 H4         Agritourism Cases (log)          -0.0178  0.216   0.934    43
+Error: unexpected input in:
+"    locations = cells_body(columns = Predictor, rows = 1)
+  ) %>"
+Execution halted
